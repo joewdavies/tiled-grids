@@ -74,10 +74,10 @@
       //define boundaries layer
       const boundariesLayer = new gridviz.GeoJSONLayer(gridviz_eurostat.getEurostatBoundariesLayer());
       //make labels layer
-      const labelLayer = new gridviz.LabelLayer(gridviz_eurostat.getEuronymeLabelLayer("BE", "20"));
+      const labelLayer = new gridviz.LabelLayer(gridviz_eurostat.getEuronymeLabelLayer());
 
       //add layers to map
-      map.layers = [backgroundLayer1, backgroundLayer2, myLayer, boundariesLayer, labelLayer];
+      map.layers = [myLayer, boundariesLayer, labelLayer];
     </script>
   </body>
 </html>
