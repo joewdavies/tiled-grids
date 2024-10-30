@@ -1,5 +1,5 @@
 # tiled-grids
-A collection of tiled gridded datasets in CSV format, generated using GridTiler
+A collection of tiled gridded datasets in CSV format, generated using [GridTiler](https://github.com/eurostat/gridtiler/), to be used with [gridviz](https://github.com/eurostat/gridviz/).
 
 For example, these commands produce tiled grid at various resolutions from 1km to 100km from a single input 1km resolution dataset `myGrid`:
 
