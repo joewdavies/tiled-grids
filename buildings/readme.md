@@ -1,4 +1,4 @@
-To tile this dataset with [GridTiler](https://www.npmjs.com/package/gridtiler) 1.2.0 (see the [installation notes](../README.md#tiling-a-grid)):
+To tile this dataset with [GridTiler](https://www.npmjs.com/package/gridtiler) 1.3.0 (see the [installation notes](../README.md#tiling-a-grid)):
 
 ```
 gridtiler -i buildings.csv -r 1000 -a 1 -o 1000m/

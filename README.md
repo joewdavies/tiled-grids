@@ -10,7 +10,7 @@ A collection of tiled gridded datasets in CSV format, generated using [GridTiler
 Install [GridTiler](https://www.npmjs.com/package/gridtiler):
 
 ```
-npm install -g gridtiler@1.2.0
+npm install -g gridtiler@1.3.0
 ```
 
 For example, these commands produce tiled grid at various resolutions from 1km to 100km from a single input 1km resolution dataset `myGrid`:
