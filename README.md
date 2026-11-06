@@ -3,13 +3,11 @@ A collection of tiled gridded datasets in CSV format, generated using [GridTiler
 
 ## Tiling a grid
 
-Install [GridTiler](https://www.npmjs.com/package/gridtiler) 1.1.0:
+Install [GridTiler](https://www.npmjs.com/package/gridtiler):
 
 ```
-npm install -g gridtiler@1.1.0
+npm install -g gridtiler@1.2.0
 ```
-
-GridTiler 1.1.0 depends on `duckdb` 0.8, which installs on Node.js 18 and 20. On Node.js 22 and 24 there is no prebuilt binary, so the install tries to compile it and fails if no C++ toolchain is available.
 
 For example, these commands produce tiled grid at various resolutions from 1km to 100km from a single input 1km resolution dataset `myGrid`:
 
