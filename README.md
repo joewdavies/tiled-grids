@@ -1,6 +1,10 @@
 # tiled-grids
 A collection of tiled gridded datasets in CSV format, generated using [GridTiler](https://github.com/eurostat/gridtiler/), to be used with [gridviz](https://github.com/eurostat/gridviz/).
 
+## Datasets
+
+-   [`vessels`](vessels/readme.md): hours of 13 ship types in European seas, 2017 to 2024, at 1 to 100 km, from EMODnet (CC BY 4.0). Tiled with its own script, not GridTiler. Used by the demo [Ships of Europe](https://eurostat.github.io/gridviz/examples/demos/ships.html).
+
 ## Tiling a grid
 
 Install [GridTiler](https://www.npmjs.com/package/gridtiler):
